@@ -40,6 +40,10 @@ body h1{
 
 }
 
+.mob{
+    display: none;
+}
+
 body h3{
     letter-spacing: 0.11rem;
     font-size: 1.4rem;
@@ -83,7 +87,7 @@ body .redes i:hover{
     }
 }
 
-@media(max-width: 600px){
+@media(max-width: 580px){
     body main{
         
         width: 80%;
@@ -95,5 +99,10 @@ body .redes i:hover{
     
     body h1{
         font-size: 2rem;
+        display: none;
+    }
+    .mob{
+        display: block;
+        font-size: 3rem;
     }
 }
