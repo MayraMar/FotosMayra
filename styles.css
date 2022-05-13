@@ -1,276 +1,286 @@
-
-p{
-    margin-bottom: 0.5rem;
-}
-.nav{
-    opacity: 70%;
-    position: fixed;
-    z-index: 1;
-    width: 100vw;
-    color:white;
+body, html{
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
-.nav button{
-    border-right-color: black;
-    border-right-width: 3px;
+p {
+  margin-bottom: 0.5rem;
 }
-button.active{
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.mobile{
-    display: none;
-}
-    
-.carousel-img{
-    height: 100vh;
+.nav {
+  opacity: 70%;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  color: white;
 }
 
-.redesDiv{
-    bottom: 40%;
+.nav button {
+  border-right-color: black;
+  border-right-width: 3px;
 }
-.redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-    opacity: 70%;
-    border-top-left-radius: 5% ;
-    border-bottom-left-radius: 5% ;
-    font-size: 1.5rem;
-   
-}
-.redes a{
-    color: rgb(209, 209, 209);
+button.active {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
-.redes a:hover{
-    font-size: 1.6rem;
-    color: white
+.mobile {
+  display: none;
 }
 
-.title{
-    margin-bottom: 2rem;
-    font-size: 5rem;
-    -webkit-text-stroke: 0.7px rgb(232, 232, 232);
-    color: transparent
+.carousel-img {
+  height: 100vh;
 }
 
-.black{
-    text-shadow: 1px 1px 2px black;
+.redesDiv {
+  bottom: 40%;
+}
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  opacity: 70%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  font-size: 1.5rem;
+}
+.redes a {
+  color: rgb(209, 209, 209);
 }
 
-.title-small{
-    padding-left: 2rem;
-    padding-top: 0;
-    color:white;
-    z-index: 2;
-    font-size: 2rem;
+.redes a:hover {
+  font-size: 1.6rem;
+  color: white;
 }
 
-.dropdown-item{
-    color:white;
+.title {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.7px rgb(232, 232, 232);
+  color: transparent;
 }
 
-.fotos{
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-.row img{
-    width: 100%;
-    padding-top: 1rem;
+.black {
+  text-shadow: 1px 1px 2px black;
 }
 
-.centrado{
-    text-align: center;
+.title-small {
+  padding-left: 2rem;
+  padding-top: 0;
+  color: white;
+  z-index: 2;
+  font-size: 2rem;
 }
 
-footer{
-    color:wheat;
-    padding: 0.7rem;
-    margin: 1rem;
-    opacity: 80%;
+.dropdown-item {
+  color: white;
+}
+
+.fotos {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.row img {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.centrado {
+  text-align: center;
+}
+
+footer {
+  color: wheat;
+  padding: 0.7rem;
+  margin: 1rem;
+  opacity: 80%;
 }
 
 /* PARA CONTACTO */
 
-.contacto{
-padding-top: 10rem;
-height: 80vh;
-display: flex;
-align-items: center;
+.contacto {
+  padding-top: 7rem;
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
-.perfil img{
-    border-radius: 50%;
+.perfil img {
+  border-radius: 50%;
+  width: 80%;
+  padding-top: 0;
 }
-div .textoContacto{
-    font-size: 3.5rem;
-    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
-    color: transparent
+div .textoContacto {
+  font-size: 3.5rem;
+  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+  color: transparent;
 }
-.arrow{
-    font-size: 5rem;
-    text-align: center;
-    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
-    color: transparent
+.arrow {
+  font-size: 5rem;
+  text-align: center;
+  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+  color: transparent;
 }
 
-.anime{
-    bottom: 10%;
+.anime {
+  bottom: 10%;
   display: block;
   position: fixed;
 }
 
-.anime a{
-    text-decoration: none;
+.anime a {
+  text-decoration: none;
 }
 
 .animadas a:nth-child(1):hover::after {
- content: "holafotosmayra@gmail.com";
- font-size: 1rem;
-padding: 0.8rem;
+  content: "holafotosmayra@gmail.com";
+  font-size: 1rem;
+  padding: 0.8rem;
 }
 
 .animadas a:nth-child(2):hover::after {
-    content: "+ 11 5732 8454";
-      font-size: 1rem;
-   padding: 0.8rem;
-   }
+  content: "+ 11 5732 8454";
+  font-size: 1rem;
+  padding: 0.8rem;
+}
 
-   .animadas a:nth-child(3):hover::after {
-    content: "@fotos.mayra";
-     font-size: 1rem;
-   padding: 0.8rem;
-   }
+.animadas a:nth-child(3):hover::after {
+  content: "@fotos.mayra";
+  font-size: 1rem;
+  padding: 0.8rem;
+}
 
-   .animadas a:nth-child(4):hover::after {
-    content: "/FotosMayra";
-       font-size: 1rem;
-   padding: 0.8rem;
-   }
+.animadas a:nth-child(4):hover::after {
+  content: "/FotosMayra";
+  font-size: 1rem;
+  padding: 0.8rem;
+}
 
-   .textoContacto{
-       margin-bottom: 1.5rem;
-   }
+.textoContacto {
+  margin-bottom: 1.5rem;
+}
 
-@media (max-width: 630px ) {
-    /* PARA VIEWS DE ALBUMES */
-    html{
-        font-size: 15px;
-    }
-    .title-small{
-        font-size: 1.3rem;
-        padding-top: 0.6rem;
-        padding-left: 1rem;
-    }
-/* PARA INDEX */
-.nav{
+@media (max-width: 630px) {
+  /* PARA VIEWS DE ALBUMES */
+  html {
+    font-size: 15px;
+  }
+  .title-small {
+    font-size: 1.3rem;
+    padding-top: 0.6rem;
+    padding-left: 1rem;
+  }
+  /* PARA INDEX */
+  
+  .nav {
     position: relative;
-}
-.mobile{
-    display:block;
-}
-.web{
+   
+  }
+  .mobile {
+    display: block;
+  }
+  .web {
     display: none;
-}
+  }
 
-.itemMob{
+  .itemMob {
     height: 100vh;
-}
+    background-color: rgb(32, 32, 32);
+  }
 
-.mobTitle{
-position: absolute;
-bottom:1px;
-top: 50vh;
-color: black;
+  .mobTitle {
+    color: white;
+    right:5%;
+    left:5%
+  }
 
-}
-
-.title{
+  .title {
     margin-bottom: 2rem;
-    font-size: 5rem;
-    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
-    color: transparent
-}
+    font-size: 4rem;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    color: transparent;
+  }
 
-/* PARA CONTACTO */
+  /* PARA CONTACTO */
 
-.redesDiv.anime{
-   top:720px;
-    left:25%;
-    width:fit-content;
-    position:absolute;
-}
-.redes.animadas{
+  .redesDiv.anime {
+    top: 720px;
+    left: 23%;
+    width: fit-content;
+    position: absolute;
+  }
+  .redes.animadas {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
     opacity: 70%;
-    border-top-left-radius: 5% ;
-    border-bottom-left-radius: 5% ;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
     border-top-right-radius: 5%;
-    border-bottom-right-radius: 5% ;
+    border-bottom-right-radius: 5%;
     font-size: 1.5rem;
-   margin: 0.8rem;
-}
+    margin: 0.8rem;
+  }
 
-.animadas a:nth-child(1)::after {
+  .animadas a:nth-child(1)::after {
     content: "holafotosmayra@gmail.com";
     font-size: 1rem;
-   padding: 0.8rem;
-   }
-   
-   .animadas a:nth-child(2)::after {
-       content: "+ 11 5732 8454";
-         font-size: 1rem;
-      padding: 0.8rem;
-      }
-   
-      .animadas a:nth-child(3)::after {
-       content: "@fotos.mayra";
-        font-size: 1rem;
-      padding: 0.8rem;
-      }
-   
-      .animadas a:nth-child(4)::after {
-       content: "/FotosMayra";
-          font-size: 1rem;
-      padding: 0.8rem;
-      }
-      .arrow i{
-        transform: rotate(90deg);
-    }
+    padding: 0.8rem;
+  }
 
-    div.contacto{
-        padding-top: 25rem;
-        margin-bottom: 20rem;
-        padding-bottom: 20rem;
-    }
+  .animadas a:nth-child(2)::after {
+    content: "+ 11 5732 8454";
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
 
-    .contacto img{
-        width: 80vw;
-        margin-left: 2rem;
-        margin-top: 12rem;
-    }
-    .aboutMe, .textoContacto{
-        margin: 2rem;
-    }
+  .animadas a:nth-child(3)::after {
+    content: "@fotos.mayra";
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .animadas a:nth-child(4)::after {
+    content: "/FotosMayra";
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  .arrow i {
+    transform: rotate(90deg);
+  }
+
+  div.contacto {
+   
+    margin-bottom: 10rem;
+    padding-bottom: 10rem;
+    height: max-content;
+  }
+
+  .contacto img {
+    width: 80vw;
+    margin-left: 2rem;
+  }
+  
+  .aboutMe,
+  .textoContacto {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  div.contacto.short{
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
-
-
-@media (max-width: 490px ) {
-    html{
-        font-size: 12px;
-    }
-    .title-small{
-        font-size: 1.2rem;
-        padding-top: 0.8rem;
-        padding-left: 0.5rem;
-    }
+@media (max-width: 490px) {
+  html {
+    font-size: 12px;
+  }
+  .title-small {
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+  }
 }
-
-
